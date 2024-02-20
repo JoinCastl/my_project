@@ -1,4 +1,4 @@
-def capitalize_words(string):
+def str_to_uppercase(string):
     """
     Функция принимает на вход строку и возвращает ее с заглавными первыми буквами каждого слова.
 
