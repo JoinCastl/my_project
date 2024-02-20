@@ -1,13 +1,12 @@
 def capitalize_words(string):
-    """
-    Функция принимает на вход строку и возвращает ее с заглавными первыми буквами каждого слова.
+  """
+  Преобразует первые буквы каждого слова в строке в верхний регистр.
 
-    Args:
-        string (str): Входная строка.
+  Args:
+    string: Строка для преобразования.
 
-    Returns:
-        str : Строка с заглавными первыми буквами каждого слова.
-    """
-    words = string.split()
-    capitalized_words = [word.capitalize() for word in words]
-    return ' '.join(capitalized_words)
+  Returns:
+    Строка с заглавными первыми буквами каждого слова.
+  """
+
+  return ' '.join(word.capitalize() for word in string.split())
