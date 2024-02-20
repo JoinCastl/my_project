@@ -1,7 +1,4 @@
 def str_to_uppercase(string):
-    return string.upper()
-
-def str_to_uppercase(string):
     """
     Функция принимает на вход строку и возвращает ее со всеми заглавными буквами.
     
